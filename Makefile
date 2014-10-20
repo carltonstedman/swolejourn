@@ -1,4 +1,8 @@
-all: Gemfile.lock
+all: Gemfile.lock serve
+
+## Serve
+serve: Gemfile.lock
+	bundle exec jekyll serve --watch --quiet --detach -H 127.0.0.1 -P 4000
 
 ## Cleanup
 clean: beclean scmversion

@@ -1,7 +1,7 @@
 # encoding: UTF-8
 source "http://rubygems.org"
 
-gem "jekyll", "~> 2.4"
+gem "github-pages", "~> 28"
 gem "therubyracer", "~> 0.12"
 gem "thor-scmversion", "~> 1.7"
 
